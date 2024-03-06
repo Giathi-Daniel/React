@@ -98,3 +98,5 @@ Account{name=remotes, path=C:/Users/hp/Desktop/Revision/REACT/.git/logs/refs/rem
 2024-03-05 10:49:49.110 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/hp/Desktop/Revision/REACT/my-react-app/src)
 2024-03-05 10:52:07.382 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/hp/Desktop/Revision/REACT/my-react-app)
 2024-03-05 10:52:28.869 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/hp/Desktop/Revision/REACT/my-react-app/src)
+2024-03-05 14:42:26.905 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/hp/Desktop/Revision/REACT/my-react-app/src)
+2024-03-05 14:44:38.679 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
