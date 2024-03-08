@@ -1,5 +1,5 @@
 import React from 'react';
-import { HTMLEditor, Image, Inject, Link, QuickToolbar, RichTextEditor, RichTextEditorComponent, Toolbar } from '@syncfusion/ej2-react-richtexteditor';
+import { HtmlEditor, Image, Inject, Link, QuickToolbar, RichTextEditor, RichTextEditorComponent, Toolbar } from '@syncfusion/ej2-react-richtexteditor';
 
 import { EditorData } from '../data/dummy';
 import { Header } from '../components';
@@ -10,7 +10,7 @@ const Editor = () => {
       <Header category="App" title="Editor" />
       <RichTextEditorComponent>
         {/* <EditorData /> */}
-        <Inject services={[HTMLEditor, Toolbar, Image, Link, QuickToolbar ]} />
+        <Inject services={[HtmlEditor, Toolbar, Image, Link, QuickToolbar ]} />
       </RichTextEditorComponent>
     </div>
   )
