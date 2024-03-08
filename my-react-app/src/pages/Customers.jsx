@@ -3,7 +3,6 @@ import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inje
 
 import { customersData, customersGrid } from '../data/dummy';
 import { Header } from '../components';
-import { GiTrumpet } from 'react-icons/gi';
 
 const Customers = () => {
   return (
