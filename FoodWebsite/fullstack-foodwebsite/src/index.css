@@ -8,7 +8,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-block-size: 100vh;
 }
 
 a {
@@ -22,10 +22,20 @@ a {
 }
 
 .navbar .active {
-  padding-bottom: 2px;
-  border-bottom: 2px solid #24557e;
+  padding-block-end: 2px;
+  border-block-end: 2px solid #24557e;
 }
 
 .navbar li {
   cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
