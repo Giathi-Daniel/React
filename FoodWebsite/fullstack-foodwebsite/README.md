@@ -3,7 +3,7 @@
 A fullstack Modern foodwebsite with both fronted for customers view, purchase and login, and a backend part for admin inspection (add, delete and update features) as well as order checkup and updates.
 
 #Startup
-npm create vite@latest
+`npm create vite@latest`
 
 #installing router-dom for react
 npm install react-router-dom
