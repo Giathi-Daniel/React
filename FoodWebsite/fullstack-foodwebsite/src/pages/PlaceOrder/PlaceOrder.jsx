@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import "./PlaceOrder.css";
-import { Form } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext";
 
 const PlaceOrder = () => {
-  const { getTotalCartAmount } = useState(StoreContext);
+  const { getTotalCartAmount } = useContext(StoreContext);
 
   return (
     <form className="place-order">

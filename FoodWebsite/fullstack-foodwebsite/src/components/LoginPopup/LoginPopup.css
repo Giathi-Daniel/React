@@ -3,7 +3,7 @@
     z-index: 1;
     inline-size: 100%;
     block-size: 100%;
-    background-color: #000;
+    background-color: #00000090;
     display: grid;
 }
 
@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     color: #000;
+    margin-block-end: 15px;
 }
 
 .login-popup-title img {
@@ -53,17 +54,19 @@
     background-color: tomato;
     font-size: 15px;
     cursor: pointer;
+    margin-block-start: 15px;
 }
 
 .login-popup-condition {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-block-start: -15px;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
 }
 
 .login-popup-condition input {
-    margin-block-start: 5px;
+    margin-block-start: -15px;
 }
 
 .login-popup p span {

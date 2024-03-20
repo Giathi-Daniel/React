@@ -12,7 +12,7 @@ const ExploreMenu = ({ category, setCategory }) => {
         one delicious meal at a time.
       </p>
       <div className="explore-menu-list">
-        {menu_list.map(() => {
+        {menu_list.map((item, index) => {
           return (
             <div
               onClick={() =>

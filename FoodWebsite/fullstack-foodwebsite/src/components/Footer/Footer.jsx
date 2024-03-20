@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
@@ -32,13 +33,13 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+1338783287</li>
-            <li>contact@sweetfood.com</li>
+            <li>contact@tomato.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 @ SweetFood.com - All Rights Reserved
+        Copyright 2024 @Tomato.com - All Rights Reserved
       </p>
     </div>
   );
