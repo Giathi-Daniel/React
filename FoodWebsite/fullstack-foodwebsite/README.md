@@ -27,4 +27,4 @@ Currently, two official plugins are available:
 
 ![This is the Project Thumbnail](./src/assets/screenshot.PNG)
 
-![Visit the live project here](https://frontendfoodwebsite.netlify.app/)
+[Visit the live project here](https://frontendfoodwebsite.netlify.app/)
