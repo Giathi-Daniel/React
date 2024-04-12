@@ -10,12 +10,39 @@ body {
 }
 
 nav {
+  position: sticky;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  z-index: 999999999999;
   block-size: 70px;
   display: flex;
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  overflow: hidden;
 }
 
 .nav--logo {
   max-inline-size: 100px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.photo-grid {
+  margin-block-start: 2rem;
+  margin-inline-start: 5rem;
+  inline-size: 80%;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-inline-start: 1rem;
+}
+
+p {
+  margin-inline-start: 1rem;
 }
