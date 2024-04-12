@@ -1,34 +1,30 @@
 import React from "react";
-import Contact from "./Components/Contact";
+import Jokes from "./Components/Jokes";
 
 function App() {
   return (
-    <div className="contacts">
-      <Contact
-        img="/mr-whiskerson.jpeg"
-        name="Mr. Whiskerson"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
+    <>
+      <Jokes
+        setup="I got my daughter a fridge for her birthday"
+        punchline="I can't wait to see her face light up when she opens it"
       />
-      <Contact
-        img="/fluffykins.jpeg"
-        name="Fluffykins"
-        phone="(212) 555-2345"
-        email="fluff@me.com"
+      <Jokes
+        setup="How did the hacker escape the police?"
+        punchline="He just ransomware"
       />
-      <Contact
-        img="/felix.jpeg"
-        name="Felix"
-        phone="(212) 555-4567"
-        email="thecat@hotmail.com"
+      <Jokes
+        setup="Why don't pirates travel on mountain roads?"
+        punchline="Scurvy"
       />
-      <Contact
-        img="/pumpkin.jpeg"
-        name="Pumpkin"
-        phone="(0800) CAT KING"
-        email="pumpkin@scrimba.com"
+      <Jokes
+        setup="Why do bees stay in the hive in the winter?"
+        punchline="Swarm"
       />
-    </div>
+      <Jokes
+        setup="What's the best thing about Switzerland?"
+        punchline="I don't know, but the flag is a big plus!"
+      />
+    </>
   );
 }
 export default App;
