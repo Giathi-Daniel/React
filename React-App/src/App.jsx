@@ -1,14 +1,14 @@
 import React from "react";
 import NavBar from "./Components/Navbar";
-import MainContent from "./Components/Main";
 import Hero from "./Components/Hero";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <div className="container">
       <NavBar />
       <Hero />
-      <MainContent />
+      <Card />
     </div>
   );
 }
