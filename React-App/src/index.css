@@ -61,11 +61,9 @@ section {
   inline-size: 175px;
   font-size: 12px;
   flex: 0 0 auto;
-  /* ADD */
   display: flex;
-  /* ADD */
   flex-direction: column;
-  /* ADD */
+  position: relative;
 }
 
 .card--image {
@@ -74,7 +72,6 @@ section {
   margin-block-end: 9px;
 }
 
-/* ADD */
 .card--title {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -89,7 +86,16 @@ section {
   block-size: 14px;
 }
 
-/* ADD */
 .card--price {
   margin-block-start: auto;
+}
+
+.card--badge {
+  position: absolute;
+  inset-block-start: 6px;
+  inset-inline-start: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
