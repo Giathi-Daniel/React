@@ -2,7 +2,19 @@ import React from "react";
 
 // { coverImg, rating, location, reviewCount, price, openSpots }
 function Card(props) {
-  return <div className="card"></div>;
+  return (
+    <div className="card">
+      <div className="left">
+        <img src={`../images/${props.img}`} alt="" />
+      </div>
+      <div className="right">
+        <span className="location">{props.location}</span>
+        <p className="title">{props.artifact}</p>
+        <p className="date">{props.date}</p> {/* DATE*/}
+        <p className="desc">{props.description}</p> {/* DESCRIPTION*/}
+      </div>
+    </div>
+  );
 }
 
 export default Card;

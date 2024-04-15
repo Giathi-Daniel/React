@@ -6,14 +6,23 @@ import data from "./data";
 
 function App() {
   <Hero />;
-  const cardElement = data.map((item) => {
-    return <Card key={item.id} {...item} />;
+  const tourItems = data.map((tour) => {
+    return (
+      <Card
+        key={tour.id}
+        img={tour.tourImage}
+        location={tour.location}
+        artifact={tour.artifact}
+        date={tour.date}
+        description={tour.description}
+      />
+    );
   });
 
   return (
     <div>
       <Navbar />
-      <section className="cards-list">{cardElement}</section>
+      <section className="cards-list">{tourItems}</section>
     </div>
   );
 }
