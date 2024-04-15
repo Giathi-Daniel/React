@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -48,14 +50,34 @@ section {
   margin-block-start: 0;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
   inline-size: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  /* ADD */
+  display: flex;
+  /* ADD */
+  flex-direction: column;
+  /* ADD */
 }
 
 .card--image {
   inline-size: 100%;
   border-radius: 9px;
+  margin-block-end: 9px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
@@ -65,4 +87,9 @@ section {
 
 .card--star {
   block-size: 14px;
+}
+
+/* ADD */
+.card--price {
+  margin-block-start: auto;
 }
