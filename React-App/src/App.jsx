@@ -5,18 +5,20 @@ import Card from "./Components/Card";
 import data from "./data";
 
 function App() {
-  // <Hero />
+  <Hero />;
   const cardElement = data.map((item) => {
     return (
-      <Card
-        key={item.id}
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        country={item.location}
-        title={item.title}
-        price={item.price}
-      />
+      <Card key={item.id} {...item} />
+      // <Card
+      //   key={item.id}
+      //   coverImg={item.coverImg}
+      //   rating={item.stats.rating}
+      //   reviewCount={item.stats.reviewCount}
+      //   location={item.location}
+      //   title={item.title}
+      //   price={item.price}
+      //   openSpots={item.openSpots}
+      // />
     );
   });
 
