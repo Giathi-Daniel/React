@@ -6,6 +6,7 @@ import data from "./data";
 
 function App() {
   <Hero />;
+  // === Also for Airbnb ===
   const tourItems = data.map((tour) => {
     return (
       <Card

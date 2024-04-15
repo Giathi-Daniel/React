@@ -19,6 +19,7 @@ function Card(props) {
 
 export default Card;
 
+// AIRBNB
 // let badgeText;
 // if (props.openSpots === 0) {
 //   badgeText = "SOLD OUT";
