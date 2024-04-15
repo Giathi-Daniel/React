@@ -7,19 +7,7 @@ import data from "./data";
 function App() {
   <Hero />;
   const cardElement = data.map((item) => {
-    return (
-      <Card key={item.id} {...item} />
-      // <Card
-      //   key={item.id}
-      //   coverImg={item.coverImg}
-      //   rating={item.stats.rating}
-      //   reviewCount={item.stats.reviewCount}
-      //   location={item.location}
-      //   title={item.title}
-      //   price={item.price}
-      //   openSpots={item.openSpots}
-      // />
-    );
+    return <Card key={item.id} {...item} />;
   });
 
   return (
@@ -31,3 +19,14 @@ function App() {
 }
 
 export default App;
+
+// <Card
+//   key={item.id}
+//   coverImg={item.coverImg}
+//   rating={item.stats.rating}
+//   reviewCount={item.stats.reviewCount}
+//   location={item.location}
+//   title={item.title}
+//   price={item.price}
+//   openSpots={item.openSpots}
+// />
