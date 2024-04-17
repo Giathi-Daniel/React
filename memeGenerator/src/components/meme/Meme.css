@@ -24,3 +24,10 @@ main {
     border: none;
     cursor: pointer;
 }
+
+.meme--image {
+    inline-size: 100%;
+    object-fit: contain;
+    margin-block-start: 1rem;
+    border-radius: .7rem;
+}
