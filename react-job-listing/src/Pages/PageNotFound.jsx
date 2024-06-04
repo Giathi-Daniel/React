@@ -2,11 +2,11 @@ import React from "react";
 import { FaExclamationTriangle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const error404 = () => {
+const PageNotFound = () => {
   return (
     <>
       <section className="text-center flex flex-col justify-center items-center h-96">
-        <FaExclamationTriangle className="text-yellow-400 fa-4x mb-4" />
+        <FaExclamationTriangle className="text-yellow-400 text-6xl mb-4" />
         <p className="text-xl mb-5">This page does not exist</p>
         <Link
           to="/"
@@ -19,4 +19,4 @@ const error404 = () => {
   );
 };
 
-export default error404;
+export default PageNotFound;
