@@ -6,13 +6,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from "./Pages/Home";
+import MainLayout from "./Layout/MainLayout";
 
-const router = createBrowserRouter (
-  createRoutesFromElements(<Route index element={<Home />} />)
-)
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<Home />} />
+    </Route>
+  )
+);
 
 const App = () => {
-  return <RouterProvider />
+  return <RouterProvider />;
 };
 
 export default App;
